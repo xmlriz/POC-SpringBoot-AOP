@@ -1,0 +1,13 @@
+package com.user.userAOP;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class UserAopApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+
+}
