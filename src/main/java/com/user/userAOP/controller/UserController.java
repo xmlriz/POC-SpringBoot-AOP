@@ -19,7 +19,7 @@ public class UserController {
     public String saveUser()
     {
         userService.saveUser();
-        return "Done";
+        return "<h1> Done </h1>";
     }
     @GetMapping("/proxy")
     public String proxy() {
